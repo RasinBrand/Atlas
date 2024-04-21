@@ -6,6 +6,7 @@ from datetime import datetime, time
 from geopy.geocoders import Nominatim
 from bs4 import BeautifulSoup
 from alive_progress import alive_bar
+from config import AUTH_KEY
 
 import os
 import sys
@@ -22,7 +23,7 @@ import geopy
 import logging
                 
 auth = API("https://api.blitzware.xyz/api",
-                    "Atlas", "ac6b8cbc52519b86847076ab22c14a570fa385cacf3be53cf48862700836e3d2", "1.4.14")
+                    "Atlas", AUTH_KEY, "1.4.14")
 
 username, email, password, two_factor_code, key = "", "", "", "", ""
 
