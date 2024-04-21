@@ -1,0 +1,11 @@
+colorama
+PSNAWP
+psutil
+argparse
+dnspython
+geopy
+geocoder
+beautifulsoup4
+alive-progress
+
+# pip install -r requirements.txt

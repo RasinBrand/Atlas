@@ -1,0 +1,4 @@
+Known Bugs:
+After function completion in the playstation menu. Uppon return you get thrown back into the Main Menu
+
+If weather function does not work, turn location into string and try
